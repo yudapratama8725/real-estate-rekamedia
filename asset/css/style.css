@@ -219,3 +219,90 @@ p {
   font-size: 20px;
   font-weight: 500;
 }
+
+/*===== Search Form =====*/
+.bg-search{
+  margin-top: 50px;
+}
+
+.bg-search .search-form{
+  background-color: #fff;
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.bg-search .search-form .form-label{
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+.bg-search .search-form .form-control,
+.bg-search .search-form .form-select{
+  background-color: #F8F8F8;
+  border: none;
+  padding: 14px 22px;
+  color: #000;
+  font-weight: 500;
+}
+
+.bg-search .search-form .form-control::placeholder{
+  color: #D2D2D2;
+  font-weight: 600;
+}
+
+.bg-search .search-form .form-control::-ms-input-placeholder,
+.bg-search .search-form .form-select::-ms-input-placeholder{
+  color: #D2D2D2;
+  font-weight: 600;
+}
+
+.bg-search .search-form .input-group-text{
+  border: none;
+  color: #737373;
+  font-weight: 600;
+  padding-left: 22px;
+}
+
+.bg-search .search-form .search-btn{
+  height: 100%;
+}
+
+/*===== Search From Small Screen =====*/
+.bg-search .search-form-sm{
+  display: none;
+}
+
+.bg-search .search-form-sm .input-group{
+  border: 0.1px solid rgba(115, 115, 115, 1);
+  border-radius: 12px;
+  background-color: #FFF;
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.08);
+}
+
+.bg-search .search-form-sm .form-control{
+  border: none;
+  padding: 14px 0px;
+  color: #000;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.bg-search .search-form-sm .form-control::placeholder{
+  color: #D2D2D2;
+  font-weight: 600;
+}
+
+.bg-search .search-form-sm .input-group-text{
+  border: none;
+  background-color: transparent;
+  color: #737373;
+  font-weight: 600;
+  padding-left: 22px;
+}
+
+.bg-search .search-form-sm .search-btn .main-btn{
+  height: 100%;
+  border-radius: 12px;
+}
