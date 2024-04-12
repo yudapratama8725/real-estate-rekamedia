@@ -306,3 +306,123 @@ p {
   height: 100%;
   border-radius: 12px;
 }
+
+/* === PROJECT START */
+.single-project{
+  margin-bottom: 40px;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.08);
+}
+
+.bg-content{
+  margin-top: 40px;
+}
+
+.single-project .project-image {
+  width:100%;
+  position:relative;
+
+}
+
+.project-image .status-content{
+  position:absolute;
+  left: 18px;
+  top: 18px;
+  background-color:#2432C1;
+  color:#fff;
+  padding: 3px 10px ;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.project-image .status-content-sewa{
+  position:absolute;
+  left: 18px;
+  top: 18px;
+  background-color:#73C124;
+  color:#fff;
+  padding: 3px 10px ;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.project-image .status-content-bekas{
+  position:absolute;
+  left: 18px;
+  top: 18px;
+  background-color: #24A5C1;
+  color:#fff;
+  padding: 3px 10px ;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.project-image .status-content > p{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+}
+
+.project-content-top .project-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 11px;
+  font-family: 'Quicksand';
+}
+
+.project-content-top .project-alamat{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  margin-bottom: 24px;
+  color: #737373;
+}
+
+.single-project .project-image > img {
+  width:100%;
+  border-radius: 18px;
+}
+
+.project-content-middle .project-content-middle-items{
+  padding-right: 30px;
+}
+
+.project-content-middle .project-content-middle-items > p{
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.project-content-middle .project-content-middle-items > span{
+  line-height: 22.5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.project-content-bottom .price > p{
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.project-content-bottom{
+  margin-top : 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.project-content-bottom .price > span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  color: #737373;
+}
+
+.project-content-bottom .main-btn{
+  font-weight: bold;
+}

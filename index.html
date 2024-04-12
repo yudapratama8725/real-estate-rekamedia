@@ -70,76 +70,390 @@
         </div>
     </section>
 
-        <!-- Search Form -->
-        <section class="bg-search wow fadeInUp" data-wow-delay=".4s">
-            <div class="container-md">
-    
-                <div class="search-form">
-                    <div class="row">
-                        <div class="col-12 col-lg-4 col-md-8">
-                            <div class="form-group">
-                                <label for="name" class="form-label">Lokasi</label>
-                                <input type="text" class="form-control shadow-none" id="minPrice" placeholder="Nama kota atau daerah">
-                            </div>
+    <!-- Search Form -->
+    <section class="bg-search wow fadeInUp" data-wow-delay=".4s">
+        <div class="container-md">
+
+            <div class="search-form">
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-md-8">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Lokasi</label>
+                            <input type="text" class="form-control shadow-none" id="minPrice" placeholder="Nama kota atau daerah">
                         </div>
-    
-                        <div class="col-12 col-lg col-md-4">
-                            <div class="form-group">
-                                <label for="jenis" class="form-label">Jenis</label>
-                                <select class="form-select shadow-none" id="jenis" aria-placeholder="Semua">
-                                    <option selected class="select">Semua</option>
-                                    <option value="1">Rumah Baru</option>
-                                    <option value="2">Rumah Bekas</option>
-                                    <option value="3">Sewa</option>
-                                </select>
-                            </div>
+                    </div>
+
+                    <div class="col-12 col-lg col-md-4">
+                        <div class="form-group">
+                            <label for="jenis" class="form-label">Jenis</label>
+                            <select class="form-select shadow-none" id="jenis" aria-placeholder="Semua">
+                                <option selected class="select">Semua</option>
+                                <option value="1">Rumah Baru</option>
+                                <option value="2">Rumah Bekas</option>
+                                <option value="3">Sewa</option>
+                            </select>
                         </div>
-    
-                        <div class="col-6 col-lg col-md">
-                            <div class="form-group">
-                                <label for="minPrice" class="form-label">Harga Minimum</label>
-                                <div class="input-group">
-                                    <span class="input-group-text" id="basic-addon1">Rp</span>
-                                    <input type="text" class="form-control shadow-none" id="minPrice" placeholder="Semua" style="padding-left: 0px !important;">
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-6 col-lg col-md">
-                            <div class="form-group">
-                                <label for="maxPrice" class="form-label">Harga Maksimum</label>
-                                <div class="input-group">
-                                    <span class="input-group-text" id="basic-addon1">Rp</span>
-                                    <input type="text" class="form-control shadow-none" id="maxPrice" placeholder="Semua" style="padding-left: 0px !important;">
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-12 col-lg col-md">
-                            <div class="search-btn">
-                                <button class="main-btn w-100 h-100">Temukan</button>
+                    </div>
+
+                    <div class="col-6 col-lg col-md">
+                        <div class="form-group">
+                            <label for="minPrice" class="form-label">Harga Minimum</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">Rp</span>
+                                <input type="text" class="form-control shadow-none" id="minPrice" placeholder="Semua" style="padding-left: 0px !important;">
                             </div>
                         </div>
                     </div>
-                </div>
-    
-                <div class="search-form-sm">
-                    <div class="row">
-                        <div class="col-8">
+
+                    <div class="col-6 col-lg col-md">
+                        <div class="form-group">
+                            <label for="maxPrice" class="form-label">Harga Maksimum</label>
                             <div class="input-group">
-                                <span class="input-group-text" id="basic-addon1"><img src="assets/images/search-icon.svg" alt=""></span>
-                                <input type="text" class="form-control shadow-none" id="minPrice" placeholder="Nama kota atau daerah">
+                                <span class="input-group-text" id="basic-addon1">Rp</span>
+                                <input type="text" class="form-control shadow-none" id="maxPrice" placeholder="Semua" style="padding-left: 0px !important;">
                             </div>
                         </div>
-    
-                        <div class="col-4">
+                    </div>
+
+                    <div class="col-12 col-lg col-md">
+                        <div class="search-btn">
                             <button class="main-btn w-100 h-100">Temukan</button>
                         </div>
                     </div>
                 </div>
-    
             </div>
-        </section>
+
+            <div class="search-form-sm">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><img src="assets/images/search-icon.svg" alt=""></span>
+                            <input type="text" class="form-control shadow-none" id="minPrice" placeholder="Nama kota atau daerah">
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <button class="main-btn w-100 h-100">Temukan</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Content -->
+    <div class="bg-content wow fadeInUp" data-wow-delay=".4s">
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Content Awal -->
+                <div class="col-6 col-lg-4 col-md-6">
+
+                    <div class="single-project">
+                        <div class="project-image">
+                                <p class="status-content">Baru</p>
+                                <img src="asset/images/Content/1.png" class="img-fluid" alt="project"/>
+                        </div>
+
+                        <div class="project-content-top">
+                            <h3 class="project-title"> 
+                                Cozy Blue House Denpasar Utara
+                            </h3>
+                            <p class="project-alamat">
+                                Denpasar Utara, Badung, Bali
+                            </p>
+                        </div>
+
+                        <div class="project-content-middle d-flex">
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bed.svg" alt="" srcset="">
+                                <p>3</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bath.svg" alt="" srcset="">
+                                <p>2</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/three.svg" alt="" srcset="">
+                                <p>40m</p>
+                                <span>2</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content-bottom d-flex">
+                            <div class="price">
+                                <p>Rp320.000.000</p>
+                                <!-- <span>Per Month</span> -->
+                            </div>
+                            <a href="#" rel="nofollow noopener" target="_blank" class="main-btn">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-lg-4 col-md-6">
+
+                    <div class="single-project">
+                        <div class="project-image">
+                                <p class="status-content-sewa">Sewa</p>
+                                <img src="asset/images/Content/2.png" class="img-fluid" alt="project"/>
+                        </div>
+
+                        <div class="project-content-top">
+                            <h3 class="project-title"> 
+                                Cozy Blue House Denpasar Utara
+                            </h3>
+                            <p class="project-alamat">
+                                Denpasar Utara, Badung, Bali
+                            </p>
+                        </div>
+
+                        <div class="project-content-middle d-flex">
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bed.svg" alt="" srcset="">
+                                <p>3</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bath.svg" alt="" srcset="">
+                                <p>2</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/three.svg" alt="" srcset="">
+                                <p>40m</p>
+                                <span>2</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content-bottom d-flex">
+                            <div class="price">
+                                <p>Rp320.000.000</p>
+                                <span>Per Month</span>
+                            </div>
+                            <a href="#" rel="nofollow noopener" target="_blank" class="main-btn">
+                                Lihat
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-lg-4 col-md-6">
+
+                    <div class="single-project">
+                        <div class="project-image">
+                                <p class="status-content">Baru</p>
+                                <img src="asset/images/Content/1.png" class="img-fluid" alt="project"/>
+                        </div>
+
+                        <div class="project-content-top">
+                            <h3 class="project-title"> 
+                                Cozy Blue House Denpasar Utara
+                            </h3>
+                            <p class="project-alamat">
+                                Denpasar Utara, Badung, Bali
+                            </p>
+                        </div>
+
+                        <div class="project-content-middle d-flex">
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bed.svg" alt="" srcset="">
+                                <p>3</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bath.svg" alt="" srcset="">
+                                <p>2</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/three.svg" alt="" srcset="">
+                                <p>40m</p>
+                                <span>2</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content-bottom d-flex">
+                            <div class="price">
+                                <p>Rp320.000.000</p>
+                                <!-- <span>Per Month</span> -->
+                            </div>
+                            <a href="#" rel="nofollow noopener" target="_blank" class="main-btn">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Content Kedua -->
+                <div class="col-6 col-lg-4 col-md-6">
+
+                    <div class="single-project">
+                        <div class="project-image">
+                                <p class="status-content-bekas">Bekas</p>
+                                <img src="asset/images/Content/1.png" class="img-fluid" alt="project"/>
+                        </div>
+
+                        <div class="project-content-top">
+                            <h3 class="project-title"> 
+                                Cozy Blue House Denpasar Utara
+                            </h3>
+                            <p class="project-alamat">
+                                Denpasar Utara, Badung, Bali
+                            </p>
+                        </div>
+
+                        <div class="project-content-middle d-flex">
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bed.svg" alt="" srcset="">
+                                <p>3</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bath.svg" alt="" srcset="">
+                                <p>2</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/three.svg" alt="" srcset="">
+                                <p>40m</p>
+                                <span>2</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content-bottom d-flex">
+                            <div class="price">
+                                <p>Rp320.000.000</p>
+                                <!-- <span>Per Month</span> -->
+                            </div>
+                            <a href="#" rel="nofollow noopener" target="_blank" class="main-btn">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-lg-4 col-md-6">
+
+                    <div class="single-project">
+                        <div class="project-image">
+                                <p class="status-content">Baru</p>
+                                <img src="asset/images/Content/1.png" class="img-fluid" alt="project"/>
+                        </div>
+
+                        <div class="project-content-top">
+                            <h3 class="project-title"> 
+                                Cozy Blue House Denpasar Utara
+                            </h3>
+                            <p class="project-alamat">
+                                Denpasar Utara, Badung, Bali
+                            </p>
+                        </div>
+
+                        <div class="project-content-middle d-flex">
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bed.svg" alt="" srcset="">
+                                <p>3</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bath.svg" alt="" srcset="">
+                                <p>2</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/three.svg" alt="" srcset="">
+                                <p>40m</p>
+                                <span>2</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content-bottom d-flex">
+                            <div class="price">
+                                <p>Rp320.000.000</p>
+                                <!-- <span>Per Month</span> -->
+                            </div>
+                            <a href="#" rel="nofollow noopener" target="_blank" class="main-btn">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-lg-4 col-md-6">
+
+                    <div class="single-project">
+                        <div class="project-image">
+                            <p class="status-content-sewa">Sewa</p>
+                                <img src="asset/images/Content/1.png" class="img-fluid" alt="project"/>
+                        </div>
+
+                        <div class="project-content-top">
+                            <h3 class="project-title"> 
+                                Cozy Blue House Denpasar Utara
+                            </h3>
+                            <p class="project-alamat">
+                                Denpasar Utara, Badung, Bali
+                            </p>
+                        </div>
+
+                        <div class="project-content-middle d-flex">
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bed.svg" alt="" srcset="">
+                                <p>3</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/bath.svg" alt="" srcset="">
+                                <p>2</p>
+                            </div>
+
+                            <div class="project-content-middle-items d-flex">
+                                <img src="asset/images/Content/three.svg" alt="" srcset="">
+                                <p>40m</p>
+                                <span>2</span>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content-bottom d-flex">
+                            <div class="price">
+                                <p>Rp320.000.000</p>
+                                <span>Per Month</span>
+                            </div>
+                            <a href="#" rel="nofollow noopener" target="_blank" class="main-btn">
+                                Lihat
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 
     <!-- Bootstraps JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
