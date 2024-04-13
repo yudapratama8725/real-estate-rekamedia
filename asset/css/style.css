@@ -426,3 +426,41 @@ p {
 .project-content-bottom .main-btn{
   font-weight: bold;
 }
+
+/* === WORKS START; */
+.bg-works{
+  background-color: #F8F8F8;
+  padding-top: 70px;
+  padding-bottom: 55px;
+  margin-top:150px;
+}
+
+.bg-works .bg-works-title h2{
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 80px;
+}
+
+.bg-works .works-image{
+  margin-bottom: 25px;
+}
+
+.works-content h3{
+  font-weight: bold;
+  font-size:24px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  font-family: 'Quicksand' !important;
+}
+
+.works-content p{
+  color: #737373;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.works-content{
+  max-width: 80%;
+}
+/* === WORKS END; */
