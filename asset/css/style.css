@@ -464,3 +464,50 @@ p {
   max-width: 80%;
 }
 /* === WORKS END; */
+
+/* === LAYANAN START */
+.bg-layanan{
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+
+.bg-layanan .bg-layanan-title h2{
+  font-size: 38px;
+  line-height: 58px;
+  margin-bottom: 15px;
+}
+
+.bg-layanan .bg-layanan-title p{
+  color: #737373;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  width: 80%;
+  margin: auto;
+}
+
+.bg-layanan .single-layanan{
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.08);
+  padding : 13px 28px 13px 28px;
+  border-radius: 18px;
+}
+
+.single-layanan .title-layanan h3{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 58px;
+  font-family: 'Quicksand';
+}
+
+.single-layanan .title-layanan h3 > span{
+  color: #2432C1;
+}
+
+.content-layanan p{
+  color: #737373;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22.5px;
+  margin-top: 15px;
+}
+/* === LAYANAN END */
