@@ -511,3 +511,78 @@ p {
   margin-top: 15px;
 }
 /* === LAYANAN END */
+
+/*===== Testimoni =====*/
+.bg-testimoni{
+  padding: 100px 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.bg-testimoni .title-testimoni .quotes-icon{
+  font-size: 120px;
+  font-family: "Alata";
+  color: rgba(36, 50, 193, 0.1);
+}
+
+.bg-testimoni .title-testimoni h1{
+  margin-top: -20px;
+  font-size: 38px;
+}
+
+.bg-testimoni .splide{
+  margin-top: 50px;
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.03);
+}
+
+.bg-testimoni #testimoni-2{
+  margin-top: 0px;
+}
+
+.bg-testimoni .splide__slide{
+  margin: 15px;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 14px;
+  background: #fff;
+  padding: 24px;
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bg-testimoni .top-testimoni {
+  display: flex;
+}
+
+.bg-testimoni .top-testimoni .img-user-testimoni{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.bg-testimoni .top-testimoni .img-user-testimoni img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.bg-testimoni .top-testimoni .desc-user-testimoni{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.bg-testimoni .top-testimoni .desc-user-testimoni h5{
+  font-family: "Quicksand";
+  font-weight: 600;
+}
+
+.bg-testimoni .top-testimoni .desc-user-testimoni p{
+  color: #737373;
+  font-weight: 600;
+}
+
+.bg-testimoni .text-testimoni p{
+  margin-top: 10px;
+  color: #737373;
+  font-weight: 400;
+  line-height: 24px;
+}
