@@ -666,3 +666,71 @@ p {
   left: 25px;
 }
 /* === BERLANGGANAN END */
+
+/*===== Footer =====*/
+.bg-footer{
+  margin-top: 100px;
+}
+
+.bg-footer .desc-footer{
+  display: none;
+}
+
+.bg-footer .main-footer{
+  width: 75%;
+}
+
+.bg-footer .main-footer img{
+  max-width: 150px;
+}
+
+.bg-footer .main-footer p{
+  color: #737373;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.bg-footer .main-footer .address{
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.bg-footer .footer li h5{
+  margin-bottom: 10px;
+}
+
+.bg-footer .footer li a{
+  margin: 10px 0;
+  color: #737373;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.bg-footer .footer li a:hover{
+  color: #000;
+}
+
+.bg-footer .footer-second{
+  padding-left: 30px;
+}
+
+.bg-footer-copyright{
+  margin-top: 70px;
+  border-top: 2px solid rgba(115, 115, 115, 0.14);
+  padding-top: 15px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-footer-copyright p{
+  color: #737373;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.bg-footer .footer img{
+  max-width: 30px;
+}
