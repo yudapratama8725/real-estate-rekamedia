@@ -1295,3 +1295,38 @@ p {
     text-align: center;
   }
 }
+
+@media (min-width: 768px) and (max-width:769px){
+  .search-berlangganan{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 557px) and (max-width:767px){
+  .bg-hero .bg-hero-img{
+    height: 350px !important;
+    object-fit: cover;
+  }
+
+  .bg-testimoni .desc-user-testimoni h5{
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .bg-testimoni .desc-user-testimoni p{
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .bg-testimoni .top-testimoni .img-user-testimoni{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .bg-testimoni .text-testimoni p{
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
