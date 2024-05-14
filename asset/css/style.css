@@ -1330,3 +1330,18 @@ p {
     margin-top: 5px;
   }
 }
+
+@media (min-width: 556px) and (max-width:580px){
+  .bg-testimoni .top-testimoni .img-user-testimoni{
+    width: 30px;
+    height: 30px;
+  }
+
+  .bg-testimoni .desc-user-testimoni h5{
+    margin-top: 0;
+  }
+
+  .bg-testimoni .desc-user-testimoni p{
+    display: none;
+}
+}
