@@ -1345,3 +1345,31 @@ p {
     display: none;
 }
 }
+
+@media (max-width: 556px){
+  .bg-hero .hero{
+    height: 370px;
+  }
+
+  .bg-hero .hero .bg-hero-img{
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .bg-hero .hero .title-hero{
+    width: 100%;
+  }
+
+  .bg-testimoni #testimoni-1 .splide__list{
+    margin-right: 40px !important;
+  }
+
+  .bg-testimoni #testimoni-2 .splide__list{
+    margin-left: 40px !important;
+  }
+  
+  .bg-footer{
+    padding: 50px 10px;
+    padding-bottom: 0px;
+  }
+}
