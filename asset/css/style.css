@@ -1373,3 +1373,234 @@ p {
     padding-bottom: 0px;
   }
 }
+
+@media (max-width: 322px){
+  .single-project{
+    margin-bottom: 40px;
+    border-radius: 24px;
+    padding: 10px 10px 16px 10px;
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+  }
+
+  .project-content-top .project-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.5px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .project-content-top .project-alamat{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 8px;
+    color: #737373;
+  }
+
+  .project-image .status-content{
+    position:absolute;
+    left: 10px;
+    font-size: 10px;
+    top: 10px;
+    background-color:#2432C1;
+    color:#fff;
+    padding: 1px 3px ;
+    border-radius: 6px;
+  }
+  
+  .project-image .status-content-sewa{
+    position:absolute;
+    left: 10px;
+    font-size: 10px;
+    top: 10px;
+    background-color:#73C124;
+    color:#fff;
+    padding: 1px 3px ;
+    border-radius: 8px;
+  }
+  
+  .project-image .status-content-bekas{
+    position:absolute;
+    font-size: 10px;
+    left: 10px;
+    top: 10px;
+    background-color: #24A5C1;
+    color:#fff;
+    padding: 1px 3px ;
+    border-radius: 8px;
+  }
+
+  .project-content-middle .project-content-middle-items{
+    padding-right: 10px;
+  }
+  
+  .project-content-middle .project-content-middle-items > img{
+    width: 14px;
+    height: 14px;
+  }
+
+  .project-content-middle .project-content-middle-items > p{
+    line-height: 17.5px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .project-content-middle .project-content-middle-items > span{
+    line-height: 12.5px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+  .project-content-bottom .price > p{
+    line-height: 22.5px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -20px;
+  }
+  
+  .project-content-bottom{
+    margin-top : 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .project-content-bottom .price > span {
+    display:none;
+  }
+  .project-content-bottom .main-btn {
+    display: none;
+  }
+
+  .bg-works .single-works{
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .bg-works .bg-works-title h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    margin-bottom: 0px;
+    text-align:center;
+  }
+  
+  .works-content h3{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22.5px;
+    margin-bottom: 10px;
+  }
+  
+  .works-content p{
+    color: #737373;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .bg-layanan{
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  
+  .bg-layanan .bg-layanan-title h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+  }
+  
+  .bg-layanan .bg-layanan-title p{
+    color: #737373;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 90%;
+    margin:0 auto;
+  }
+  
+  .bg-layanan .single-layanan{
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.08);
+    padding : 13px 28px 13px 28px;
+    border-radius: 18px;
+  }
+  
+  .single-layanan .title-layanan h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .single-layanan .title-layanan h3 > span{
+    color: #2432C1;
+  }
+  
+  .content-layanan p{
+    color: #737373;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .bg-testimoni .desc-user-testimoni h5{
+    font-size: 16px;
+  }
+
+  .bg-testimoni .desc-user-testimoni p{
+    font-size: 12px;
+  }
+
+  .bg-berlangganan{
+    margin-bottom: 150px;
+  }
+  
+  .bg-berlangganan .bg-blue{
+    padding: 20px 16px 20px 16px;
+    border-radius: 14px;
+  }
+  
+  .bg-berlangganan .title-berlangganan h2{
+    font-size: 18px;
+    line-height: 22.12px;
+  }
+  
+  .bg-berlangganan .title-berlangganan p{
+    font-size: 14px;
+    color:#fff;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .search-berlangganan{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .search-berlangganan .form-control::placeholder{
+    font-size: 12px;
+    line-height: 17.5px;
+    font-weight: 700;
+  }
+  
+  .search-berlangganan .btn{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17.5px;
+    border-radius: 8px !important;
+  } 
+
+  .bg-blue .img-top{
+    display: none;
+  }
+  
+  .bg-blue .img-bottom{
+    display:none;
+  }
+}
