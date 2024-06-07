@@ -192,6 +192,115 @@ p {
   top: -12px;
 }
 
+/* Detail-Property */
+.bg-detail-property{
+  margin-top: 40px;
+}
+
+.bg-detail-property .property-titile h2{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  size: 28px;
+}
+
+.bg-detail-property .property-location h4{
+  color: #737373;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  size: 24px;
+}
+
+.bg-detail-property .back-property {
+  background-color: #2432C1;
+  width: 50px;
+  height: 75px;
+  color: #fff;
+  border-radius: 8px;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-detail-property .back-property img {
+  margin-top: 28px;
+  margin-left: 17px;
+  transition: transform 0.3s ease;
+  position: absolute;
+}
+
+/* Animasi untuk hover */
+.bg-detail-property .back-property:hover img {
+  animation: move-left-right 1s;
+}
+
+@keyframes move-left-right {
+  50% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+.bg-detail-property .property-value{
+  text-decoration: none;
+  padding: 20px 55px;
+  margin-bottom: 25px;
+  color: #2432C1;
+  border-radius: 8px;
+  border: 2px solid #1238bf;    
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  justify-content: end;
+}
+
+.open-location-top a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+.open-location-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px; 
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.open-location-top .map-icon {
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.open-location-top:hover {
+  background-color: #2432C1;
+}
+
+.open-location-top:hover a {
+  color: #fff;
+}
+
+.open-location-top .hover {
+  display: none;
+}
+
+.open-location-top:hover .hover {
+  display: inline-block;
+}
+
+.open-location-top:hover .default {
+  display: none;
+}
+
 /*===== Footer =====*/
 .bg-footer{
   margin-top: 100px;
